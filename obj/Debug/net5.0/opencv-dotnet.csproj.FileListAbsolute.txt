@@ -1,0 +1,12 @@
+/Users/adityamulgundkar/Documents/GitHub/opencv-dotnet/obj/Debug/net5.0/opencv-dotnet.csprojAssemblyReference.cache
+/Users/adityamulgundkar/Documents/GitHub/opencv-dotnet/obj/Debug/net5.0/opencv-dotnet.GeneratedMSBuildEditorConfig.editorconfig
+/Users/adityamulgundkar/Documents/GitHub/opencv-dotnet/obj/Debug/net5.0/opencv-dotnet.AssemblyInfoInputs.cache
+/Users/adityamulgundkar/Documents/GitHub/opencv-dotnet/obj/Debug/net5.0/opencv-dotnet.AssemblyInfo.cs
+/Users/adityamulgundkar/Documents/GitHub/opencv-dotnet/obj/Debug/net5.0/opencv-dotnet.csproj.CoreCompileInputs.cache
+/Users/adityamulgundkar/Documents/GitHub/opencv-dotnet/bin/Debug/net5.0/opencv-dotnet.deps.json
+/Users/adityamulgundkar/Documents/GitHub/opencv-dotnet/bin/Debug/net5.0/opencv-dotnet.dll
+/Users/adityamulgundkar/Documents/GitHub/opencv-dotnet/bin/Debug/net5.0/ref/opencv-dotnet.dll
+/Users/adityamulgundkar/Documents/GitHub/opencv-dotnet/bin/Debug/net5.0/opencv-dotnet.pdb
+/Users/adityamulgundkar/Documents/GitHub/opencv-dotnet/obj/Debug/net5.0/opencv-dotnet.dll
+/Users/adityamulgundkar/Documents/GitHub/opencv-dotnet/obj/Debug/net5.0/ref/opencv-dotnet.dll
+/Users/adityamulgundkar/Documents/GitHub/opencv-dotnet/obj/Debug/net5.0/opencv-dotnet.pdb

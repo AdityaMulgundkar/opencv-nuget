@@ -1,0 +1,63 @@
+{
+  "format": 1,
+  "restore": {
+    "/Users/adityamulgundkar/Documents/GitHub/opencv-dotnet/opencv-dotnet.csproj": {}
+  },
+  "projects": {
+    "/Users/adityamulgundkar/Documents/GitHub/opencv-dotnet/opencv-dotnet.csproj": {
+      "version": "0.0.1",
+      "restore": {
+        "projectUniqueName": "/Users/adityamulgundkar/Documents/GitHub/opencv-dotnet/opencv-dotnet.csproj",
+        "projectName": "opencv-dotnet-test",
+        "projectPath": "/Users/adityamulgundkar/Documents/GitHub/opencv-dotnet/opencv-dotnet.csproj",
+        "packagesPath": "/Users/adityamulgundkar/.nuget/packages/",
+        "outputPath": "/Users/adityamulgundkar/Documents/GitHub/opencv-dotnet/obj/",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "/Users/adityamulgundkar/.nuget/NuGet/NuGet.Config"
+        ],
+        "originalTargetFrameworks": [
+          "netstandard2.0"
+        ],
+        "sources": {
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "netstandard2.0": {
+            "targetAlias": "netstandard2.0",
+            "projectReferences": {}
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "netstandard2.0": {
+          "targetAlias": "netstandard2.0",
+          "dependencies": {
+            "NETStandard.Library": {
+              "suppressParent": "All",
+              "target": "Package",
+              "version": "[2.0.3, )",
+              "autoReferenced": true
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "runtimeIdentifierGraphPath": "/usr/local/share/dotnet/sdk/5.0.202/RuntimeIdentifierGraph.json"
+        }
+      }
+    }
+  }
+}
