@@ -1,9 +1,0 @@
-/Users/adityamulgundkar/Documents/GitHub/opencv-dotnet/bin/Debug/netstandard2.0/opencv-dotnet.deps.json
-/Users/adityamulgundkar/Documents/GitHub/opencv-dotnet/bin/Debug/netstandard2.0/opencv-dotnet.dll
-/Users/adityamulgundkar/Documents/GitHub/opencv-dotnet/bin/Debug/netstandard2.0/opencv-dotnet.pdb
-/Users/adityamulgundkar/Documents/GitHub/opencv-dotnet/obj/Debug/netstandard2.0/opencv-dotnet.csprojAssemblyReference.cache
-/Users/adityamulgundkar/Documents/GitHub/opencv-dotnet/obj/Debug/netstandard2.0/opencv-dotnet.AssemblyInfoInputs.cache
-/Users/adityamulgundkar/Documents/GitHub/opencv-dotnet/obj/Debug/netstandard2.0/opencv-dotnet.AssemblyInfo.cs
-/Users/adityamulgundkar/Documents/GitHub/opencv-dotnet/obj/Debug/netstandard2.0/opencv-dotnet.csproj.CoreCompileInputs.cache
-/Users/adityamulgundkar/Documents/GitHub/opencv-dotnet/obj/Debug/netstandard2.0/opencv-dotnet.dll
-/Users/adityamulgundkar/Documents/GitHub/opencv-dotnet/obj/Debug/netstandard2.0/opencv-dotnet.pdb
