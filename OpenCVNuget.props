@@ -6,7 +6,7 @@
     <LibraryType Condition="'$(Configuration)'=='Release'">md</LibraryType>
   </PropertyGroup>
   <ItemGroup>
-  <FilamentLibs Include="$(MSBuildThisFileDirectory)\x64\vc14\lib\$(LibraryType)\*.lib" />
+  <FilamentLibs Include="$(MSBuildThisFileDirectory)\x64\vc14\lib\*.lib" />
   </ItemGroup>
   <PropertyGroup>
     <!-- Expland the items to a property -->

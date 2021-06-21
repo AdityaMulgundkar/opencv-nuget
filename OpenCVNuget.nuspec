@@ -1,0 +1,18 @@
+<?xml version="1.0"?>
+<package >
+    <metadata>
+        <id>OpenCVNuget</id>
+        <version>4.5.2</version>
+        <description>OpenCV Nuget Package for C++</description>
+        <tags>OpenCV, opencv</tags>
+        <authors>Aditya Mulgundkar</authors>
+    </metadata>
+     
+    <files>
+        <file src="bin\*"       target="build\native\bin"     />
+        <file src="include\**\*.*"   target="build\native\include" />
+        <file src="README.md"        target="build\native"      />
+        <file src="build-test.md"   target="build\native" />
+        <file src="OpenCVNuget.targets"   target="build\native" />
+    </files>
+</package>
