@@ -9,7 +9,6 @@
     </metadata>
      
     <files>
-        <file src="bin\*"       target="build\native\bin"     />
         <file src="include\**\*.*"   target="build\native\include" />
         <file src="README.md"        target="build\native"      />
         <file src="build-test.md"   target="build\native" />
