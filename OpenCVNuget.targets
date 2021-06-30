@@ -5,19 +5,24 @@
     <LibraryType Condition="'$(Configuration)'=='Debug'">mdd</LibraryType>
     <LibraryType Condition="'$(Configuration)'=='Release'">md</LibraryType>
   </PropertyGroup>
-  <ItemGroup>
-  <FilamentLibs Include="$(MSBuildThisFileDirectory)\x64\vc14\lib\*.lib" />
-  </ItemGroup>
-  <PropertyGroup>
-    <!-- Expland the items to a property -->
-    <FilamentLibraries>@(FilamentLibs)</FilamentLibraries>
-    </PropertyGroup>
-    <ItemDefinitionGroup>
-    <ClCompile>   <AdditionalIncludeDirectories>$(MSBuildThisFileDirectory)\include</AdditionalIncludeDirectories>
+  <ItemDefinitionGroup>
+    <ClCompile>
+      <AdditionalIncludeDirectories>$(MSBuildThisFileDirectory)\include\;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
     </ClCompile>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup>
     <Link>
-      <AdditionalDependencies>$(FilamentLibraries);%(AdditionalDependencies) 
-      </AdditionalDependencies>
+      <AdditionalLibraryDirectories>$(MSBuildThisFileDirectory)\x64\vc14\lib\;%(AdditionalLibraryDirectories)</AdditionalLibraryDirectories>
+      <AdditionalDependencies>opencv_world452d.lib;%(AdditionalDependencies)</AdditionalDependencies>
     </Link>
   </ItemDefinitionGroup>
+  
+  <ItemGroup>
+    <None Include="$(MSBuildThisFileDirectory)\x64\vc14\bin\opencv_world452d.dll">
+      <Link>opencv_world452d.dll</Link>
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+      <Visible>false</Visible>
+    </None>
+  </ItemGroup>
+  
 </Project>

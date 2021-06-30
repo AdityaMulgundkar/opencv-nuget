@@ -10,6 +10,9 @@
      
     <files>
         <file src="include\**\*.*"   target="build\native\include" />
+        <file src="x64\vc14\lib\**\*d.lib"   target="build\native\x64\vc14\lib" />
+        <file src="x64\vc14\bin\**\*d.dll"   target="build\native\x64\vc14\bin" />
+        <file src="x64\vc14\bin\**\*d.pdb"   target="build\native\x64\vc14\bin" />
         <file src="README.md"        target="build\native"      />
         <file src="build-test.md"   target="build\native" />
         <file src="OpenCVNuget.targets"   target="build\native" />
