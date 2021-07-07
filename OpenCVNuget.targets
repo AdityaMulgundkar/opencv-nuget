@@ -2,8 +2,9 @@
 <Project xmlns="http://schemas.microsoft.com/developer/msbuild/2003"
         ToolsVersion="15.0">
   <PropertyGroup>
-    <LibraryType Condition="'$(Configuration)'=='Debug'">mdd</LibraryType>
-    <LibraryType Condition="'$(Configuration)'=='Release'">md</LibraryType>
+    <VisualStudioVersion Condition="'$(VisualStudioVersion)' == ''">10.0</VisualStudioVersion>
+    <LibraryType Condition="'$(Configuration)'=='Debug'">d</LibraryType>
+    <LibraryType Condition="'$(Configuration)'=='Release'"></LibraryType>
   </PropertyGroup>
   <ItemDefinitionGroup>
     <ClCompile>
@@ -12,14 +13,14 @@
   </ItemDefinitionGroup>
   <ItemDefinitionGroup>
     <Link>
-      <AdditionalLibraryDirectories>$(MSBuildThisFileDirectory)\x64\vc14\lib\;%(AdditionalLibraryDirectories)</AdditionalLibraryDirectories>
-      <AdditionalDependencies>opencv_world452d.lib;%(AdditionalDependencies)</AdditionalDependencies>
+      <AdditionalLibraryDirectories>$(MSBuildThisFileDirectory)\x$(Platform)\vc$(VisualStudioVersion)\lib\;%(AdditionalLibraryDirectories)</AdditionalLibraryDirectories>
+      <AdditionalDependencies>opencv_world*$(Configuration).lib;%(AdditionalDependencies)</AdditionalDependencies>
     </Link>
   </ItemDefinitionGroup>
   
   <ItemGroup>
-    <None Include="$(MSBuildThisFileDirectory)\x64\vc14\bin\opencv_world452d.dll">
-      <Link>opencv_world452d.dll</Link>
+    <None Include="$(MSBuildThisFileDirectory)\x64\vc14\bin\opencv_world*$(LibraryType).dll">
+      <Link>opencv_world*$(Configuration).dll</Link>
       <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
       <Visible>false</Visible>
     </None>
