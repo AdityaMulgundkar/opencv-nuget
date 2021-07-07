@@ -10,29 +10,18 @@
      
     <files>
         <file src="include\**\*.*"   target="build\native\include" />
-        <file src="x64\vc13\lib\**\opencv_world*.lib"   target="build\native\x64\vc13.0\lib" />
-        <file src="x64\vc13\bin\**\opencv_world*.dll"   target="build\native\x64\vc13.0\bin" />
-        <file src="x64\vc13\bin\**\opencv_world*.pdb"   target="build\native\x64\vc13.0\bin" />
-
-        <file src="x86\vc13\lib\**\opencv_world*.lib"   target="build\native\x86\vc13.0\lib" />
-        <file src="x86\vc13\bin\**\opencv_world*.dll"   target="build\native\x86\vc13.0\bin" />
-        <file src="x86\vc13\bin\**\opencv_world*.pdb"   target="build\native\x86\vc13.0\bin" />
 
         <file src="x64\vc14\lib\**\opencv_world*.lib"   target="build\native\x64\vc14.0\lib" />
         <file src="x64\vc14\bin\**\opencv_world*.dll"   target="build\native\x64\vc14.0\bin" />
         <file src="x64\vc14\bin\**\opencv_world*.pdb"   target="build\native\x64\vc14.0\bin" />
 
-        <file src="x86\vc14\lib\**\opencv_world*.lib"   target="build\native\x86\vc14.0\lib" />
-        <file src="x86\vc14\bin\**\opencv_world*.dll"   target="build\native\x86\vc14.0\bin" />
-        <file src="x86\vc14\bin\**\opencv_world*.pdb"   target="build\native\x86\vc14.0\bin" />
-
         <file src="x64\vc15\lib\**\opencv_world*.lib"   target="build\native\x64\vc15.0\lib" />
         <file src="x64\vc15\bin\**\opencv_world*.dll"   target="build\native\x64\vc15.0\bin" />
         <file src="x64\vc15\bin\**\opencv_world*.pdb"   target="build\native\x64\vc15.0\bin" />
 
-        <file src="x86\vc15\lib\**\opencv_world*.lib"   target="build\native\x86\vc15.0\lib" />
-        <file src="x86\vc15\bin\**\opencv_world*.dll"   target="build\native\x86\vc15.0\bin" />
-        <file src="x86\vc15\bin\**\opencv_world*.pdb"   target="build\native\x86\vc15.0\bin" />
+        <file src="x64\vc16\lib\**\opencv_world*.lib"   target="build\native\x64\vc16.0\lib" />
+        <file src="x64\vc16\bin\**\opencv_world*.dll"   target="build\native\x64\vc16.0\bin" />
+        <file src="x64\vc16\bin\**\opencv_world*.pdb"   target="build\native\x64\vc16.0\bin" />
 
         <file src="README.md"        target="build\native" />
         <file src="OpenCVNuget.targets"   target="build\native" />
