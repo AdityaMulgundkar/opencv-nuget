@@ -1,4 +1,1 @@
-x64/
-!/builds/nuget/x64/
-x64.zip
-builds/nuget/x64/OpenCVNuget.4.5.2.nupkg
+/build
