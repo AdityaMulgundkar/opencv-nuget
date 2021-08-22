@@ -1,7 +1,7 @@
 # OpenCV NuGet Package with support for multiple msvc versions
 
 ## Status Report - OpenCVNuget
-OpenCVNuget package is built for simpler importing of the [OpenCV project](https://github.com/opencv/opencv) in C++ projects. NuGet provides ease of installation with the ability to produce and consume packages quickly. Using a NuGet package avoids the requirement of manually building the OpenCV project using CMake and importing (linking and configuring) the relevant lib and dll files in your project.
+OpenCVNuget package is built for simpler importing of the [OpenCV project](https://github.com/opencv/opencv) in C++ projects. NuGet provides ease of installation with the ability to produce, distribute and consume packages quickly. Using a NuGet package avoids the requirement of manually building the OpenCV project using CMake and importing (linking and configuring) the relevant lib and dll files in your project.
 
 ## Mentors
 - Miguel Lourenço
@@ -25,10 +25,23 @@ A Github Actions workflow has been created in order to imitate the entire proces
 - Providing the .nupkg as a downloadable artifact
 
 ### Code structure
-- The outer repository is housed inside the [OpenCV repository](https://github.com/opencv/opencv) under `platforms/nuget` folder
+- This repository is housed inside the [OpenCV repository](https://github.com/opencv/opencv) under the `platforms/nuget` directory
+- `build-jinja.py` file parses and generates the .nuspec and .targets files
+- The templates folder contains jinja templates of .nuspec and .targets files
+- The workflow folder contains a Github Actions workflow, which can easily be integrated by forking the OpenCV repository (as documented in [CLONING.md](CLONING.md))
 
 ### NuGet packages (releases)
+The [releases section](https://github.com/AdityaMulgundkar/opencv-nuget/releases) contains the following pre-built NuGet packages for distribution:
+- Visual Studio 2019 - msvc 16.0
+- Visual Studio 2018 - msvc 15.0
+- Visual Studio 2017 - msvc 14.0
+
+(all above packages support x64 in debug + release mode)
 
 ## Guides & Tutorials
 - [Cloning](CLONING.md) - Guide to Forking & Creating the Github Action on your own clone of opencv repository
 - [Tutorial](TUTORIAL.md) - Tutorial for using the NuGet package (.nupkg file) in your projects
+
+## Future Work
+- Extending the workflow to build opencv-contrib
+- Allowing configuration of individual opencv modules in the workflow
