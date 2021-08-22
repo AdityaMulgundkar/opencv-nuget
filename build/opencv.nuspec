@@ -1,0 +1,30 @@
+<?xml version="1.0"?>
+<package>
+	<metadata>
+		<id>
+			OpenCVNuget
+		</id>
+		<version>
+			4.5.3
+		</version>
+		<description>
+			OpenCV Nuget Package for C++
+		</description>
+		<tags>
+			OpenCV, opencv
+		</tags>
+		<authors>
+			OpenCV
+		</authors>
+	</metadata>
+	<files>
+		<file src="include\**\*.*" target="build\native\include" />
+
+		<file src="x64\vc16\lib\**\opencv_world*.lib" target="build\native\x64\vc16.0\lib" />
+		<file src="x64\vc16\bin\**\opencv_world*.dll" target="build\native\x64\vc16.0\bin" />
+		<file src="x64\vc16\bin\**\opencv_world*.pdb" target="build\native\x64\vc16.0\bin" />
+
+		<file src="README.md" target="build\native" />
+		<file src="OpenCVNuget.targets" target="build\native" />
+	</files>
+</package>

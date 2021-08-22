@@ -25,6 +25,10 @@ A Github Actions workflow has been created in order to imitate the entire proces
 - Providing the .nupkg as a downloadable artifact
 
 ### Code structure
-
+- The outer repository is housed inside the [OpenCV repository](https://github.com/opencv/opencv) under `platforms/nuget` folder
 
 ### NuGet packages (releases)
+
+## Guides & Tutorials
+- [Cloning](CLONING.md) - Guide to Forking & Creating the Github Action on your own clone of opencv repository
+- [Tutorial](TUTORIAL.md) - Tutorial for using the NuGet package (.nupkg file) in your projects
